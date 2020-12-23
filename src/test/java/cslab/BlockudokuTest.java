@@ -14,6 +14,9 @@ public class BlockudokuTest {
     public void testCase0() throws IOException {
         generateBoardTest(0);
     }
+    public void testCase1() throws IOException {
+        getPieceTest();
+    }
 
     public List<String> readFile(int testNumber, String type){
         String fileName = "test_case<testNumber>_<type>";
@@ -52,5 +55,12 @@ public class BlockudokuTest {
         Assert.assertEquals(output, expectedOutput);
     }
 
+    private void getPieceTest() throws IOException {
+        char piece = Blockudoku.getPiece();
+        boolean result = false;
+        if (piece == 'a' || piece == 'b' || piece == 'c' || piece == 'd' || piece == 'e' || piece == 'f' || piece == 'g' || piece == 'h')
+            result = true;
 
+        Assert.assertEquals(result,true);
+    }
 }

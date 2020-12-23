@@ -5,7 +5,7 @@
     <classes>
       <class name="cslab.BlockudokuTest">
         <methods>
-          <include name="testCase0"/>
+          <include name="testCase1"/>
         </methods>
       </class> <!-- cslab.BlockudokuTest -->
     </classes>

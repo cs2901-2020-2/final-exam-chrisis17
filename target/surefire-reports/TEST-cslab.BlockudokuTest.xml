@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cslab.BlockudokuTest" time="0.25" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cslab.BlockudokuTest" time="0.289" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-14.0.2/lib"/>
-    <property name="sun.java.command" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire/surefirebooter9568658615848175835.jar /home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire 2020-12-23T11-42-47_711-jvmRun1 surefire6841285522330734882tmp surefire_016789033536704347179tmp"/>
+    <property name="sun.java.command" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire/surefirebooter13674267959966889292.jar /home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire 2020-12-23T11-55-17_280-jvmRun1 surefire39144924226905536tmp surefire_010249499804079719503tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/test-classes:/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/classes:/home/chris/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/chris/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/home/chris/.m2/repository/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0.jar:/home/chris/.m2/repository/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar:/home/chris/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire/surefirebooter9568658615848175835.jar"/>
+    <property name="surefire.real.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire/surefirebooter13674267959966889292.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
     <property name="user.name" value="chris"/>
@@ -51,4 +51,10 @@
     <property name="java.class.version" value="58.0"/>
   </properties>
   <testcase name="testCase0" classname="cslab.BlockudokuTest" time="0.017"/>
+  <testcase name="testCase1" classname="cslab.BlockudokuTest" time="0.007">
+    <failure message="Index 8 out of bounds for length 8" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at cslab.BlockudokuTest.getPieceTest(BlockudokuTest.java:59)
+	at cslab.BlockudokuTest.testCase1(BlockudokuTest.java:18)
+</failure>
+  </testcase>
 </testsuite>
