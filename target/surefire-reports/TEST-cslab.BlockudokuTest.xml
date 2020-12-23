@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cslab.BlockudokuTest" time="0.25" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/test-classes:/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/classes:/home/chris/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/chris/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/home/chris/.m2/repository/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0.jar:/home/chris/.m2/repository/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar:/home/chris/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-14.0.2/lib"/>
+    <property name="sun.java.command" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire/surefirebooter9568658615848175835.jar /home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire 2020-12-23T11-42-47_711-jvmRun1 surefire6841285522330734882tmp surefire_016789033536704347179tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/test-classes:/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/classes:/home/chris/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/chris/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/home/chris/.m2/repository/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0.jar:/home/chris/.m2/repository/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar:/home/chris/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/chris"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-14.0.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final/target/surefire/surefirebooter9568658615848175835.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="chris"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-58-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/chris/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="/home/chris/Documents/Universidad/Ciclo 5/Ing. Software/examen_final"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testCase0" classname="cslab.BlockudokuTest" time="0.017"/>
+</testsuite>

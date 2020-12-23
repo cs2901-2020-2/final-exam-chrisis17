@@ -1,0 +1,7 @@
+organization=cs2901-2020-2
+projectKey=cs2901-2020-2_final-exam-chrisis17
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.15878
+dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2020-2_final-exam-chrisis17
+ceTaskId=AXaQfCEOqYKY0zcOKHWh
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXaQfCEOqYKY0zcOKHWh
